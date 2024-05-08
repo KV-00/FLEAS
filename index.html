@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0>
+
+    <title>FLEAS!</title>
+
+    <!-- CSS stylesheet(s) -->
+
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+
+    <!-- My font(s) -->
+
+    <div style="font-family:font"></div>
+
+    <!-- Library script(s) -->
+
+    <script src="js/libraries/p5.min.js"></script>
+    <script src="js/libraries/p5.sound.min.js"></script>
+    <script src="js/libraries/phaser.min.js"></script>
+
+  </head>
+
+  <body style="background-color:#dd9d50"> 
+
+    <a href = "#" id = "none">
+    
+    <!-- My script(s) -->
+
+    <script src="js/Boot.js"></script>
+    <script src="js/Play.js"></script>
+    <script src="js/main.js"></script>
+
+    </a>
+
+    <script>
+      // do opening transition
+      function doTransition()
+      {
+        var transition = document.getElementById("none");
+        transition.id = "transition";
+      }
+    </script>
+
+  </body> 
+  
+</html>
