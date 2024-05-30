@@ -301,6 +301,30 @@ class Play extends Phaser.Scene {
             repeat: -1,
             showOnStart: true
         });
+        // create particle animation 0
+        this.anims.create({
+            key: 'particle0',
+            frames: this.anims.generateFrameNumbers('falseBlockParticle0', { start: 0, end: 2 }),
+            frameRate: 10,
+            repeat: -1,
+            showOnStart: true
+        });
+        // create particle animation 1
+        this.anims.create({
+            key: 'particle1',
+            frames: this.anims.generateFrameNumbers('falseBlockParticle1', { start: 0, end: 2 }),
+            frameRate: 10,
+            repeat: -1,
+            showOnStart: true
+        });
+        // create particle animation 2
+        this.anims.create({
+            key: 'particle2',
+            frames: this.anims.generateFrameNumbers('falseBlockParticle2', { start: 0, end: 2 }),
+            frameRate: 10,
+            repeat: -1,
+            showOnStart: true
+        });
     }
 
     create() {

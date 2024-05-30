@@ -89,6 +89,18 @@ class Boot extends Phaser.Scene {
       'assets/images/spikes_2.png',
       { frameWidth: 40, frameHeight: 40 }
       );
+      this.load.spritesheet('falseBlockParticle0',
+      'assets/images/falseBlock_particle_0.png',
+      { frameWidth: 20, frameHeight: 20 }
+      );
+      this.load.spritesheet('falseBlockParticle1',
+      'assets/images/falseBlock_particle_1.png',
+      { frameWidth: 20, frameHeight: 20 }
+      );
+      this.load.spritesheet('falseBlockParticle2',
+      'assets/images/falseBlock_particle_2.png',
+      { frameWidth: 20, frameHeight: 20 }
+      );
       //play transition on boot
       doTransition();
     }
